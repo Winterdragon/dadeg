@@ -47,12 +47,21 @@ body {
 }
 
 .image-half{
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .img-center {
   margin: 0 auto;
+}
+.img_border{
+  border: #BE1E2D 3px solid;
+  border-image-source: url("bola.png");
+  text-align: justify;
+}
+
+img {
+-webkit-filter: grayscale(100%);
 }
 
 footer {
